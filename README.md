@@ -12,6 +12,7 @@
 ## 檔案
 
 - `public/index.html`：整個 App（單一檔案，無需建置）
+- `public/manifest.webmanifest`、`public/sw.js`、`public/icons/`：手機安裝（PWA）用的設定、離線快取和圖示
 - `wrangler.jsonc`：Cloudflare Workers 靜態網站設定
 
 ## 部署
