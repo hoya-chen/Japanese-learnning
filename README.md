@@ -16,5 +16,7 @@
 
 ## 部署
 
-Cloudflare Workers 連結這個 repo 後，每次推到 `main` 會自動部署。
+網址：https://japanese-learnning.hoya-chen.workers.dev
+
+Cloudflare Workers（名稱 `japanese-learnning`）已連結這個 repo，每次推到 `main` 會自動部署。
 手動部署：`npx wrangler deploy`
