@@ -1,5 +1,5 @@
 // 離線快取：頁面先抓網路（拿到最新版），沒網路時用快取
-const CACHE = 'aiu-v1';
+const CACHE = 'aiu-v2';
 const CORE = ['/', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
